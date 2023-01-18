@@ -24,7 +24,8 @@ pip install -r requrisment.txt
 
 The performance of the drift detection algorithm on the artificial dataset is tested in the [main.py ](https://github.com/blindsub/SDDM/blob/master/main.py) with metrics such as accuracy, recall, etc. The results of repeating the test 30 times are:
 
-![](https://github.com/blindsub/SDDM/result/result_1671607203.0845156.png)
+
+![](https://github.com/blindsub/SDDM/raw/master/result/result_1671607203.0845156.png)
 
 The algorithms were ranked using the Nemenyi test on the different metric results.
 
