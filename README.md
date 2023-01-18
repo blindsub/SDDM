@@ -25,21 +25,21 @@ pip install -r requrisment.txt
 The performance of the drift detection algorithm on the artificial dataset is tested in the [main.py ](https://github.com/blindsub/SDDM/blob/master/main.py) with metrics such as accuracy, recall, etc. The results of repeating the test 30 times are:
 
 ![](https://github.com/blindsub/SDDM/blob/main/result/result_1671607203.0845156.png)
-![](https://github.com/blindsub/SDDM/raw/master/result/result_1671607203.0845156.png)
+
 
 The algorithms were ranked using the Nemenyi test on the different metric results.
 
 The precision rate ranking is:
 
-![](https://github.com/blindsub/SDDM/raw/master/result/nemenyi/1671607208.6429975precision.png)
+![](https://github.com/blindsub/SDDM/blob/main/result/nemenyi/1671607208.6429975precision.png)
 
 The recall rate ranking is:
 
-![](https://github.com/blindsub/SDDM/raw/master/result/nemenyi/1671607208.781749recall.png)
+![](https://github.com/blindsub/SDDM/blob/main/result/nemenyi/1671607208.781749recall.png)
 
 The ranking of the number of false detections is:
 
-![](https://github.com/blindsub/SDDM/raw/master/result/nemenyi/1671607209.1928563false_alarms.png)
+![](https://github.com/blindsub/SDDM/blob/main/result/nemenyi/1671607209.1928563false_alarms.png)
 
 #### Experimental results of Real-world datasets
 
@@ -48,7 +48,7 @@ Each drift detection algorithm was tested on four real-world datasets
 we introduce a classifier to process the real data and update the classifier when the algorithm detects a drift.As an example, the SDDM algorithm and the HDDDM algorithm perform in the weather dataset as follows, where the red line represents that the algorithm detects drift at this point and updates the classifier
 
 
-<img src="https://github.com/blindsub/SDDM/raw/master/result/real_word/Weather___SDDM__0.759708402094201.png" />
-<img src="https://github.com/blindsub/SDDM/raw/master/result/real_word/Weather___HDDDM__0.7316202463204476.png" />
+<img src="https://github.com/blindsub/SDDM/blob/main/result/real_word/Weather___SDDM__0.759708402094201.png" />
+<img src="https://github.com/blindsub/SDDM/blob/main/result/real_word/Weather___HDDDM__0.7316202463204476.png" />
 
 
